@@ -37,7 +37,7 @@
 #ifndef DEVICE_ARRAY_HPP_
 #define DEVICE_ARRAY_HPP_
 
-#include "device_memory.hpp"
+#include <ICPOdometry/cuda_utils/containers/device_memory.hpp>
 
 #include <vector>
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

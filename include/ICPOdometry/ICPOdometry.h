@@ -8,7 +8,7 @@
 #ifndef ICPODOMETRY_H_
 #define ICPODOMETRY_H_
 
-#include "Cuda/internal.h"
+#include <ICPOdometry/cuda_utils/internal.h>
 
 #include <vector>
 #include <sophus/se3.hpp>

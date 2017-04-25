@@ -35,8 +35,8 @@
  *
  */
 
-#include "internal.h"
-#include "containers/safe_call.hpp"
+#include <ICPOdometry/cuda_utils/internal.h>
+#include <ICPOdometry/cuda_utils/containers/safe_call.hpp>
 
 __global__ void pyrDownGaussKernel(const PtrStepSz<unsigned short> src, PtrStepSz<unsigned short> dst, float sigma_color)
 {

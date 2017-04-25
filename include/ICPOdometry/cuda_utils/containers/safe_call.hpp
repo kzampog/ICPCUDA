@@ -10,7 +10,7 @@
 
 #include <cuda_runtime_api.h>
 #include <cstdlib>
-#include "../containers/initialization.hpp"
+#include <ICPOdometry/cuda_utils/containers/initialization.hpp>
 
 #if defined(__GNUC__)
     #define cudaSafeCall(expr)  ___cudaSafeCall(expr, __FILE__, __LINE__, __func__)

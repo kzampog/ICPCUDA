@@ -34,9 +34,9 @@
 *  Author: Anatoly Baskeheev, Itseez Ltd, (myname.mysurname@mycompany.com)
 */
 
-#include "initialization.hpp"
-#include "cuda.h"
-#include "safe_call.hpp"
+#include <ICPOdometry/cuda_utils/containers/initialization.hpp>
+#include <cuda.h>
+#include <ICPOdometry/cuda_utils/containers/safe_call.hpp>
 #include <stdio.h>
 #include <cassert>
 #include <iostream>

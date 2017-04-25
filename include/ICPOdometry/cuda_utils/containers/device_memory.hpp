@@ -37,7 +37,7 @@
 #ifndef DEVICE_MEMORY_HPP_
 #define DEVICE_MEMORY_HPP_
 
-#include "kernel_containers.hpp"
+#include <ICPOdometry/cuda_utils/containers/kernel_containers.hpp>
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /** \brief @b DeviceMemory class

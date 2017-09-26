@@ -29,7 +29,7 @@ cuda_compile(cuda_objs ${cuda})
 
 set(CMAKE_CXX_FLAGS ${ADDITIONAL_CMAKE_CXX_FLAGS} "-O3 -msse2 -msse3 -std=c++11")
 
-add_library(${PROJECT_NAME} SHARED src/ICPOdometry.cpp ${cuda} ${cuda_objs} ${containers})
+add_library(${PROJECT_NAME} SHARED src/icp_odometry.cpp ${cuda} ${cuda_objs} ${containers})
 target_link_libraries(${PROJECT_NAME} ${CUDA_LIBRARIES})
 
 # Package config files

@@ -1,4 +1,4 @@
-#include <ICPOdometry/ICPOdometry.h>
+#include <icp_odometry/icp_odometry.h>
 
 #include <iomanip>
 #include <fstream>

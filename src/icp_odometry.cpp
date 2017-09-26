@@ -5,7 +5,7 @@
  *      Author: thomas
  */
 
-#include <ICPOdometry/ICPOdometry.h>
+#include <icp_odometry/icp_odometry.h>
 
 ICPOdometry::ICPOdometry(int width,
                           int height,

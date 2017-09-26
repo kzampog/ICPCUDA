@@ -37,7 +37,7 @@
 #ifndef DEVICE_MEMORY_HPP_
 #define DEVICE_MEMORY_HPP_
 
-#include <ICPOdometry/cuda_utils/containers/kernel_containers.hpp>
+#include <icp_odometry/cuda_utils/containers/kernel_containers.hpp>
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /** \brief @b DeviceMemory class
@@ -242,6 +242,6 @@ class DeviceMemory2D
         int* refcount_;
 };
 
-#include "device_memory_impl.hpp"
+#include <icp_odometry/cuda_utils/containers/device_memory_impl.hpp>
 
 #endif /* DEVICE_MEMORY_HPP_ */

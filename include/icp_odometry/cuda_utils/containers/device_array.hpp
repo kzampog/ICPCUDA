@@ -37,7 +37,7 @@
 #ifndef DEVICE_ARRAY_HPP_
 #define DEVICE_ARRAY_HPP_
 
-#include <ICPOdometry/cuda_utils/containers/device_memory.hpp>
+#include <icp_odometry/cuda_utils/containers/device_memory.hpp>
 
 #include <vector>
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -252,6 +252,6 @@ class DeviceArray2D : public DeviceMemory2D
         size_t elem_step() const;
 };
 
-#include "device_array_impl.hpp"
+#include <icp_odometry/cuda_utils/containers/device_array_impl.hpp>
 
 #endif /* DEVICE_ARRAY_HPP_ */
